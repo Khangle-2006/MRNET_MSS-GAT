@@ -107,7 +107,7 @@ python pretrain_backbone.py
 **Key Configuration (inside script):**
 * `BATCH_SIZE`: 128
 * `EPOCHS`: 100
-*This will generate a `resnet18_medical_pretrain.pth` file. Use this path for `BACKBONE_WEIGHTS` in the main training script.*
+* This will generate a `resnet18_medical_pretrain.pth` file. Use this path for `BACKBONE_WEIGHTS` in the main training script.*
 
 ---
 
