@@ -248,10 +248,10 @@ for epoch in range(EPOCHS):
         if auc_men > best_meniscus_auc:
             best_meniscus_auc = auc_men
             torch.save({'model_state_dict': model.state_dict(), 'best_meniscus': auc_men}, './best_model_v9_meniscus_final.pth')
-            print(f"   [SAVE] ⭐ NEW BEST MENISCUS! ({auc_men:.4f})")
+            print(f"   [SAVE] NEW BEST MENISCUS! ({auc_men:.4f})")
 
         if target_metric > best_target_auc:
             best_target_auc = target_metric
             torch.save({'model_state_dict': model.state_dict(), 'best_target_auc': best_target_auc}, CHECKPOINT_PATH)
-            print(f"   [SAVE] ⭐ NEW BEST AVG! ({target_metric:.4f})")
+            print(f"   [SAVE] NEW BEST AVG! ({target_metric:.4f})")
     except: pass
