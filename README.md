@@ -1,5 +1,6 @@
 
-# Nội dung của file README.md
+#MSS-GAT
+
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
