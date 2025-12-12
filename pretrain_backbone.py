@@ -10,7 +10,7 @@ import os
 import json
 
 # Import dataset
-from dataset_pretrain import RadImageNetDataset
+from src.dataset_pretrain import RadImageNetDataset
 
 # --- CẤU HÌNH ---
 ROOT_DIR = './radiology_ai' 
