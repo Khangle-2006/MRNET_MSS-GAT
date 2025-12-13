@@ -9,8 +9,8 @@ import torch.nn.functional as F
 import torch.nn as nn
 
 # Import source
-from src.dataset import MRNetDataset
-from src.model import MultiViewSRRNet_V9
+from src_2.dataset import MRNetDataset
+from src_2.model import MultiViewSRRNet_V9
 
 # --- CẤU HÌNH ---
 ROOT_DIR = './MRNet-v1.0'
