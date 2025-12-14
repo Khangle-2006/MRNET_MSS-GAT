@@ -11,7 +11,7 @@
 This repository contains the official implementation of **MSS-Net** (Multi-Scale Shifted Network). Our method leverages a novel **RGB Multi-Scale Input Strategy** combined with **Spatial Graph Reasoning** to capture both global anatomical context and fine-grained lesion details (e.g., tiny meniscal tears).
 
 <p align="center">
-  <img src="pipeline.png" width="850" alt="Pipeline Architecture">
+  <img src="imgs/Pipeline.png" width="850" alt="Pipeline Architecture">
   <br>
   <em>Figure 1: The architecture of MSS-Net featuring the Dynamic Multi-Scale Processor and Hierarchical GAT.</em>
 </p>
@@ -159,7 +159,7 @@ The script generates images in `vis_results_Static_MultiScale/` containing:
 * **<span style="color:blue">Blue Box:</span>** Represents the **Mid View (Zoom 0.75)**, covering the Meniscus boundaries.
 
 <p align="center">
-  <img src="MultiScale_1172.png" width="800" alt="Visualization Example">
+  <img src="imgs/MultiScale_1172.png" width="800" alt="Visualization Example">
   <br>
   <em>Figure 2: Grad-CAM Visualization with Multi-Scale bounding boxes showing precise localization of ACL and Meniscal tears.</em>
 </p>
